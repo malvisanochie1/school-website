@@ -1,0 +1,218 @@
+body {
+
+    font-family: 'Roboto Slab', serif;
+}
+
+/******************
+    header
+*************/
+
+
+
+@media (max-width: 768px) {
+    .header-social-icon {
+        display: none;
+    }
+}
+
+
+a {
+    text-decoration: none;
+}
+
+/******************
+     navbar
+*************/
+nav {
+    background: #ffffff;
+    box-shadow: 1px 5px 1px #eb0b0b;
+}
+
+nav .navbar-brand {
+    color: var(--bs-orange) !important;
+}
+
+.navbar-nav .nav-link {
+    font-size: 18px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.navbar-toggler {
+    outline: none !important;
+    padding: none !important;
+}
+
+/******************
+   carousel
+*************/
+.carousel-inner .carousel-item {
+    width: 100%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.carousel-inner .carousel-item::before {
+    content: ;
+    background: origin 2px;
+    right: 0;
+    left: 0;
+    position: absolute;
+    bottom: 0;
+}
+
+.carousel-inner .carousel-caption {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    bottom: 0;
+    top: 40%;
+    left: 0;
+    right: 0;
+}
+
+.carousel-inner .carousel-caption h2 {
+    color: white;
+    margin-bottom: 7px;
+    font-size: 42px;
+    font-weight: 700;
+    width: 80%;
+    margin: 0px auto 10px auto;
+}
+
+.carousel-inner .carousel-caption h2 span {
+    color: var(--bs-orange) !important;
+
+}
+
+.carousel-item p {
+    color: rgb(241, 241, 238);
+
+    font-size: 10px;
+    width: 80%;
+    margin: 0px auto 20px auto;
+    /* position: absolute;
+    overflow: hidden;
+    height: 100%;
+    width: 100%;
+    z-index: 20;
+    opacity: 1;
+    visibility: inherit; */
+}
+
+@media (max-width: 768px) {
+    .carousel-caption h2 {
+        font-size: 29px;
+    }
+
+    .carousel-caption p {
+        font-size: 17px;
+    }
+}
+
+@media (min-width: 768px) {
+    .carousel-caption h2 {
+        font-size: 35px;
+    }
+
+    .carousel-caption p {
+        font-size: 19px;
+    }
+}
+
+/* @media(max-width){
+    .carousel-inner.carousel-caption h2 {
+        font-size: 38px;
+
+    }
+} */
+
+@media(max-width:577; ) {}
+
+.carousel-inner.carousel-caption h2 {
+    font-size: 25px;
+}
+}
+
+/* .carousel-item p {
+    color: rgb(189, 174, 88);
+    font-size: 25px;
+    
+} */
+
+@media screen and (min-width: 577px) {
+    .carousel-item p {
+        color: rgb(189, 174, 88);
+        font-size: 416px;
+
+    }
+}
+
+/* @media screen and (min-width:768px) {
+ .carousel-item p {
+        color: rgb(189, 174, 88);
+        font-size: 25px;
+        
+  }
+
+  } */
+
+
+.section-heading {
+    color: var(--bs-orange) !important;
+}
+
+
+@media (max-width: 577px) {
+    .spacing {
+        margin-top: 24px;
+    }
+}
+
+/********************
+            card
+      ********************/
+.box {
+    padding: 10px;
+    border-radius: 10px;
+}
+
+/*********************
+      map
+     ********************/
+.map-container {
+    overflow: hidden;
+    padding-bottom: 56.25%;
+    position: relative;
+    height: 0;
+}
+
+.map-container iframe {
+    left: 0;
+    top: 0;
+    height: 333px;
+    width: 100%;
+    position: absolute;
+}
+
+.card-hover:hover {
+
+    transform: scale(1.0);
+    padding: 15px;
+
+    box-shadow: 1px 3px 5px #888888;
+    height: 300px;
+    margin: 0 auto;
+
+}
+.card:hover{
+    padding: 5px;
+    box-shadow: 1px 3px 5px #888888; 
+}
+
+.navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show .nav-link {
+    color: #fd7e14;
+}
